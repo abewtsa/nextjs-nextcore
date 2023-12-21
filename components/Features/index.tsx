@@ -9,13 +9,13 @@ const Feature = () => {
     <>
       {/* <!-- ===== Features Start ===== --> */}
       <section id="features" className="py-4">
-        <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
+        <div className="mx-auto max-w-c-1315 px-8 md:text-left xl:px-8">
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
               title: "What we do",
               subtitle: "Stay ahead, stay efficient, with Nextcore",
-              description: `Learn more about the power of our IT solutions, transform your digital presence and innovate for your business or organisation.
+              description: `Nextcore is uniquely positioned to power you with IT solutions. Transform your digital presence and innovate your business process.
               `,
             }}
           />

@@ -11,24 +11,23 @@ const Hero = () => {
 
   return (
     <>
-      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
-        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+      <section className="pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46 xl:mx-8">
+        <div className="mx-auto max-w-c-1390 px-8 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                We are focused on solutions
+                Elevate your business
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
                 Nextcore is your
                 <span className="relative inline-block">
                 Web Solutions&nbsp;
                 </span>
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
+                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-blue-600 ">
                 Partner
                 </span>
               </h1>
               <p>
-              Elevate your digital presence and drive success with our tailored business and web solutions.
               We specialise in crafting dynamic websites, intuitive e-commerce platforms, and cost effective IT resourcing solutions that resonate with your digital strategies.
               <br/><br/>
               From meaningful designs to seamless functionality, our team merges creativity with technology to drive your business forward. 
@@ -48,7 +47,7 @@ const Hero = () => {
                       aria-label="get started button"
                       className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                     >
-                      Learn about our Solutions
+                      Get started
                     </button>
                   </div>
                 </form>

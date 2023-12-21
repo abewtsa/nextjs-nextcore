@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <>
       {/* <!-- ===== Contact Start ===== --> */}
-      <section id="contact" className="px-4 md:px-8 2xl:px-0">
+      <section id="contact" className="md:px-8 2xl:px-0 mx-2 xl:mx-8">
         <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
           <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]"></div>
           <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
@@ -54,9 +54,9 @@ const Contact = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-2/3 xl:p-10"
+              className="animate_top w-full rounded-lg bg-white p-6 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-2/3 xl:p-10"
             >
-              <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
+              <h2 className="mb-8 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
                 Send a message
               </h2>
 
@@ -78,7 +78,7 @@ const Contact = () => {
                   />
                 </div>
 
-                <div className="mb-12.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
+                <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
                     type="text"
                     placeholder="Subject"
@@ -126,7 +126,7 @@ const Contact = () => {
                     </span>
                     <label
                       htmlFor="default-checkbox"
-                      className="flex max-w-[425px] cursor-pointer select-none pl-5 pb-5"
+                      className="flex max-w-[425px] cursor-pointer select-none pl-5 pb-5 text-sm"
                     >
                       By clicking Checkbox, you agree to use our “Form” terms
                       And consent cookie usage in browser.
@@ -135,7 +135,7 @@ const Contact = () => {
 
                   <button
                     aria-label="send message"
-                    className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
+                    className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 mb-8 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
                   >
                     Send Message
                     <svg
@@ -172,18 +172,18 @@ const Contact = () => {
               whileInView="visible"
               transition={{ duration: 2, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_top w-full md:w-2/5 md:p-5 lg:w-[35%] xl:pt-10"
+              className="animate_top w-full md:w-2/5 md:p-4 lg:w-[36%] xl:pt-10"
             >
-              <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-                Work with us
+              <h2 className="mb-6 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
+                Ready for digital transformation?
               </h2>
 
-              <div className="5 mb-7">
+              <div className="mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Our team is ready to help
+                  Our team is ready to help you start.
                 </h3>
-                <p>Contact our team for accelerated solutions.
-                Learn more about how we can help drive your business forward.</p>
+                <p>Contact our team to see how we can support you.
+                Discover our solutions and ways to drive your business forward.</p>
               </div>
               {/* <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">

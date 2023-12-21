@@ -36,7 +36,7 @@
 
 @media (min-width: 1280px){
   body {
-    @apply mx-8;
+    @apply mx-0;
   }
 }
 

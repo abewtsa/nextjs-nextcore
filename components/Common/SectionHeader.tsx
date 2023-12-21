@@ -29,7 +29,7 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
         whileInView="visible"
         transition={{ duration: 1, delay: 0.1 }}
         viewport={{ once: true }}
-        className="animate_top mx-auto text-center"
+        className="animate_top mx-auto text-left sm:text-center"
       >
         <div className="mb-4 inline-block bg-zumthor px-8 py-3 dark:border dark:border-strokedark dark:bg-blacksection">
           <span className="text-sectiontitle font-medium text-black dark:text-white">
