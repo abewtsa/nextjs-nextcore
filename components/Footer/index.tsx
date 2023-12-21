@@ -30,26 +30,26 @@ const Footer = () => {
               >
                 <a href="index.html" className="relative">
                   <Image
-                    width={110}
-                    height={80}
+                    width={150}
+                    height={100}
                     src="/images/logo/NextcoreDark.svg"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
-                    width={110}
-                    height={80}
+                    width={150}
+                    height={100}
                     src="/images/logo/NextcoreLight.svg"
                     alt="Logo"
                     className="hidden dark:block"
                   />
                 </a>
 
-                <p className="mb-10 mt-5">
+                {/* <p className="mb-10 mt-5">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
+                </p> */}
 
-                <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
+                {/* <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   contact
                 </p>
                 <a
@@ -57,7 +57,7 @@ const Footer = () => {
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
                   hello@solid.com
-                </a>
+                </a> */}
               </motion.div>
 
               <div className="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12">
@@ -79,7 +79,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
+                  <h4 className="mb-9 text-itemtitle3 font-medium text-black dark:text-white">
                     Quick Links
                   </h4>
 
@@ -137,7 +137,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
+                  <h4 className="mb-9 text-itemtitle3 font-medium text-black dark:text-white">
                     Support
                   </h4>
 
@@ -168,7 +168,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/contact"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Contact Us
@@ -195,19 +195,16 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Newsletter
+                  <h4 className="mb-9 text-itemtitle3 font-medium text-black dark:text-white">
+                  Sign up to learn more about our solutions
                   </h4>
-                  <p className="mb-4 w-[90%]">
-                    Subscribe to receive future updates
-                  </p>
 
                   <form action="#">
                     <div className="relative">
                       <input
                         type="text"
                         placeholder="Email address"
-                        className="w-full rounded-full border border-stroke px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
+                        className="w-full rounded-full border border-cyan-500 px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                       />
 
                       <button

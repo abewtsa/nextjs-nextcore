@@ -3,46 +3,46 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: "/images/icon/icon-01.svg",
-    title: "Crafted for SaaS",
+    icon: "/images/icon/icon-03.svg",
+    title: "High-quality Web and UX Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Deliver high-quality digital experiences that captivate and engage your audience effortlessly.",
   },
   {
     id: 2,
     icon: "/images/icon/icon-02.svg",
-    title: "High-quality Design",
+    title: "API and platform development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "We engineer robust, scalable solutions to solve your API and application development needs.",
   },
   {
     id: 3,
-    icon: "/images/icon/icon-03.svg",
-    title: "Next.js 13 + TypeScript",
+    icon: "/images/icon/icon-01.svg",
+    title: "IT and Development sourcing",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Empower your development process. Learn more about our hybrid sourcing approach.",
   },
-  {
-    id: 4,
-    icon: "/images/icon/icon-04.svg",
-    title: "Sanity Blog and Docs",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
-  },
-  {
-    id: 5,
-    icon: "/images/icon/icon-05.svg",
-    title: "DB, Auth and Stripe",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
-  },
-  {
-    id: 6,
-    icon: "/images/icon/icon-06.svg",
-    title: "Regular Free Updates",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
-  },
+  // {
+  //   id: 4,
+  //   icon: "/images/icon/icon-04.svg",
+  //   title: "Sanity Blog and Docs",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+  // },
+  // {
+  //   id: 5,
+  //   icon: "/images/icon/icon-05.svg",
+  //   title: "DB, Auth and Stripe",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+  // },
+  // {
+  //   id: 6,
+  //   icon: "/images/icon/icon-06.svg",
+  //   title: "Regular Free Updates",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+  // },
 ];
 
 export default featuresData;

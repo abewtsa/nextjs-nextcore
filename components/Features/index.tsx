@@ -8,16 +8,15 @@ const Feature = () => {
   return (
     <>
       {/* <!-- ===== Features Start ===== --> */}
-      <section id="features" className="py-10">
+      <section id="features" className="py-4">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "SOLID FEATURES",
-              subtitle: "Core Features of Solid",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              title: "What we do",
+              subtitle: "Stay ahead, stay efficient, with Nextcore",
+              description: `Learn more about the power of our IT solutions, transform your digital presence and innovate for your business or organisation.
+              `,
             }}
           />
           {/* <!-- Section Title End --> */}
