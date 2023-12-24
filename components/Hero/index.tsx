@@ -41,7 +41,7 @@ const Hero = () => {
                       onChange={(e) => setEmail(e.target.value)}
                       type="text"
                       placeholder="Enter your email address"
-                      className="rounded-full border border-cyan-500 px-6 py-2.5 shadow-solid-2 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
+                      className="rounded-full border border-cyan-500 px-6 py-2.5 shadow-solid-2 focus:border-primary focus:outline-none dark:border-cyan-500 dark:bg-black dark:shadow-none dark:focus:border-primary"
                     />
                     <button
                       aria-label="get started button"

@@ -26,7 +26,7 @@ const CTA = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left md:w-[70%] lg:w-[70%]"
+              className="animate_left md:w-[70%] lg:w-[60%]"
             >
               <h2 className="mb-4 w-11/12 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
               Solving IT challenges doesn't have to be painful.
@@ -63,7 +63,7 @@ const CTA = () => {
                 />
                 <a
                   href="signup.html"
-                  className="inline-flex items-center gap-2.5 rounded-full bg-black px-12 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
+                  className="inline-flex items-center gap-2.5 rounded-full bg-black px-8 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
                 >
                   Email us
                   <Image

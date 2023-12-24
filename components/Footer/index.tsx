@@ -8,7 +8,7 @@ const Footer = () => {
       <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
-          <div className="py-10 lg:py-25">
+          <div className="py-10 lg:py-15">
             <div className="flex flex-wrap gap-8 lg:justify-between lg:gap-0">
               <motion.div
                 variants={{
@@ -281,7 +281,7 @@ const Footer = () => {
                       <input
                         type="text"
                         placeholder="Email address"
-                        className="w-full rounded-full border border-cyan-500 px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
+                        className="w-full rounded-full border border-cyan-500 px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-none dark:border-cyan-500 dark:bg-black dark:shadow-none dark:focus:border-primary"
                       />
 
                       <button

@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <>
       {/* <!-- ===== Contact Start ===== --> */}
-      <section id="contact" className="md:px-8 2xl:px-0 mx-2 xl:mx-8">
+      <section id="contact" className="mt-20 md:px-8 2xl:px-0 mx-2 xl:mx-8">
         <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
           <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]"></div>
           <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
@@ -68,13 +68,13 @@ const Contact = () => {
                   <input
                     type="text"
                     placeholder="Full name"
-                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-cyan-500 focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-cyan-500 dark:focus:placeholder:text-white lg:w-1/2"
                   />
 
                   <input
                     type="email"
                     placeholder="Email address"
-                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-cyan-500 focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-cyan-500 dark:focus:placeholder:text-white lg:w-1/2"
                   />
                 </div>
 
@@ -82,13 +82,13 @@ const Contact = () => {
                   <input
                     type="text"
                     placeholder="Subject"
-                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-cyan-500 focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-cyan-500 dark:focus:placeholder:text-white lg:w-1/2"
                   />
 
                   <input
                     type="text"
                     placeholder="Phone number"
-                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-cyan-500 focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-cyan-500 dark:focus:placeholder:text-white lg:w-1/2"
                   />
                 </div>
 
@@ -96,7 +96,7 @@ const Contact = () => {
                   <textarea
                     placeholder="Message"
                     rows={4}
-                    className="w-full border-b border-stroke bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white"
+                    className="w-full border-b border-stroke bg-transparent focus:border-cyan-500 focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-cyan-500 dark:focus:placeholder:text-white"
                   ></textarea>
                 </div>
 
