@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import CardsTeam from "./CardsTeam";
-import SingleCard from "./SingleCard";
+import SingleCard from "../CardsBase/SingleCard";
 import SectionHeader from "../Common/SectionHeader";
 
 const Card = () => {

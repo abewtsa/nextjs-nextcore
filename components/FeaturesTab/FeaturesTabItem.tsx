@@ -24,6 +24,7 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
             className="hidden dark:block"
           />
         </div>
+        
       </div>
     </>
   );

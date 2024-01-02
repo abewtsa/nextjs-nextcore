@@ -62,7 +62,7 @@ const CTA = () => {
                   className="hidden xl:block"
                 />
                 <a
-                  href="signup.html"
+                  href="/contact"
                   className="inline-flex items-center gap-2.5 rounded-full bg-black px-8 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
                 >
                   Email us

@@ -10,24 +10,7 @@ const Footer = () => {
           {/* <!-- Footer Top --> */}
           <div className="py-10 lg:py-15">
             <div className="flex flex-wrap gap-8 lg:justify-between lg:gap-0">
-              <motion.div
-                variants={{
-                  hidden: {
-                    opacity: 0,
-                    y: -20,
-                  },
-
-                  visible: {
-                    opacity: 1,
-                    y: 0,
-                  },
-                }}
-                initial="hidden"
-                whileInView="visible"
-                transition={{ duration: 1, delay: 0.5 }}
-                viewport={{ once: true }}
-                className="animate_top w-1/2 lg:w-1/4"
-              >
+              <div className="w-1/2 lg:w-1/4">
                 <a href="index.html" className="relative">
                   <Image
                     width={150}
@@ -134,33 +117,16 @@ const Footer = () => {
                 >
                   hello@solid.com
                 </a> */}
-              </motion.div>
+              </div>
               
 
               <div className="flex w-full px-4 flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12">
-                <motion.div
-                  variants={{
-                    hidden: {
-                      opacity: 0,
-                      y: -20,
-                    },
-
-                    visible: {
-                      opacity: 1,
-                      y: 0,
-                    },
-                  }}
-                  initial="hidden"
-                  whileInView="visible"
-                  transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
-                  className="animate_top"
-                >
-                  <h4 className="mb-9 text-itemtitle3 font-medium text-black dark:text-white">
+                <div className="w-2/3 lg:w-1/3">
+                  <h4 className="mb-9 text-sm font-medium text-black dark:text-white">
                     Quick Links
                   </h4>
 
-                  <ul>
+                  <ul className="text-sm">
                     <li>
                       <a
                         href="#"
@@ -194,31 +160,14 @@ const Footer = () => {
                       </a>
                     </li>
                   </ul>
-                </motion.div>
+                </div>
 
-                <motion.div
-                  variants={{
-                    hidden: {
-                      opacity: 0,
-                      y: -20,
-                    },
-
-                    visible: {
-                      opacity: 1,
-                      y: 0,
-                    },
-                  }}
-                  initial="hidden"
-                  whileInView="visible"
-                  transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
-                  className="animate_top"
-                >
-                  <h4 className="mb-9 text-itemtitle3 font-medium text-black dark:text-white">
+                <div className="w-2/3 lg:w-1/3">
+                  <h4 className="mb-9 text-sm font-medium text-black dark:text-white">
                     Support
                   </h4>
 
-                  <ul>
+                  <ul className="text-sm">
                     <li>
                       <a
                         href="#"
@@ -252,28 +201,11 @@ const Footer = () => {
                       </a>
                     </li>
                   </ul>
-                </motion.div>
+                </div>
 
-                <motion.div
-                  variants={{
-                    hidden: {
-                      opacity: 0,
-                      y: -20,
-                    },
-
-                    visible: {
-                      opacity: 1,
-                      y: 0,
-                    },
-                  }}
-                  initial="hidden"
-                  whileInView="visible"
-                  transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
-                  className="animate_top"
-                >
-                  <h4 className="mb-9 text-itemtitle3 font-medium text-black dark:text-white">
-                  Sign up to hear more from Nextcore
+                <div className="w-2/3 lg:w-1/3">
+                  <h4 className="mb-4 text-sm font-medium text-black dark:text-white">
+                  Sign up to know more about Nextcore and our news
                   </h4>
 
                   <form action="#">
@@ -311,73 +243,39 @@ const Footer = () => {
                       </button>
                     </div>
                   </form>
-                </motion.div>
+                </div>
               </div>
             </div>
           </div>
           {/* <!-- Footer Top --> */}
 
           {/* <!-- Footer Bottom --> */}
-          <div className="flex flex-col flex-wrap items-center justify-center gap-5 border-t border-stroke py-7 dark:border-strokedark lg:flex-row lg:justify-between lg:gap-0">
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="animate_top"
-            >
-              <ul className="flex items-center gap-8">
+          <div className="flex flex-col flex-wrap text-xs items-center justify-center gap-2 border-t border-stroke py-7 dark:border-strokedark lg:flex-row lg:justify-between lg:gap-0">
+            <div className="w-1/2 lg:w-1/4">
+              <ul className="flex items-center justify-center gap-8 lg:justify-start">
                 {/* <li>
                   <a href="#" className="hover:text-primary">
                     English
                   </a>
                 </li> */}
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="/privacy-policy" className="hover:text-primary">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="/terms" className="hover:text-primary">
                     Terms
                   </a>
                 </li>
               </ul>
-            </motion.div>
+            </div>
 
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="animate_top"
-            >
+            <div className="text-center lg:pr-6 w-1/2 lg:w-1/4 xl:w-1/4 lg:text-right lg:justify-end">
               <p>
                 &copy; {new Date().getFullYear()} Nextcore. All rights reserved 
               </p>
-            </motion.div>
+            </div>
 
             {/* Old Social icon location */}
             {/* <motion.div

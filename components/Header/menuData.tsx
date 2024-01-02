@@ -7,26 +7,28 @@ const menuData: Menu[] = [
     newTab: false,
     path: "/",
   },
+  
   {
     id: 2,
     title: "Solutions",
     newTab: false,
     path: "/solutions",
   },
-  {
-    id: 3,
-    title: "Blog",
-    newTab: false,
-    path: "/blog",
-  },
   
   {
-    id: 4,
+    id: 3,
     title: "Our team",
     newTab: false,
     path: "/team",
   },
   
+  {
+    id: 4,
+    title: "Blog",
+    newTab: false,
+    path: "/blog",
+  },
+
   // {
   //   id: 5,
   //   title: "Docs",
@@ -78,7 +80,7 @@ const menuData: Menu[] = [
   // },
 
   {
-    id: 6,
+    id: 50,
     title: "Contact",
     newTab: false,
     path: "/contact",
